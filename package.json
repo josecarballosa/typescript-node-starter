@@ -1,0 +1,41 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "Starter seed for my typescript node projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts --fix",
+    "lint:staged": "lint-staged",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "ts-node",
+    "nodemon",
+    "eslint",
+    "prettier",
+    "husky",
+    "lint-staged"
+  ],
+  "author": "Jose Carballosa",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.11",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
