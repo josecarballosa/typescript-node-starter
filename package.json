@@ -2,6 +2,9 @@
   "name": "typescript-node-starter",
   "version": "1.0.0",
   "description": "Starter seed for my typescript node projects",
+  "repository": {
+    "url": "https://github.com/carballosa/typescript-node-starter.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
